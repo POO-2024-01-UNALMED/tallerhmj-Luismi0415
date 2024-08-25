@@ -29,7 +29,7 @@ public class Jugador extends Futbolista{
 
 	@Override
 	public String toString() {
-		return "El Futbolista " + this.getNombre() + "tiene " + this.getEdad() + "y juega de " + this.getPosicion() + "con el dorsal"
+		return "El Futbolista " + this.getNombre() + "tiene " + this.getEdad() + ",y juega de " + this.getPosicion() + "con el dorsal"
 				+ dorsal + ".Ha marcado " + golesMarcados;
 	}
 

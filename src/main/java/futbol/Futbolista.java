@@ -33,7 +33,7 @@ public abstract class Futbolista implements Comparable<Object>{
 
 	@Override
 	public String toString() {
-		return "El Futbolista " + this.nombre + "tiene " + this.edad + " y juega de " + this.posicion;
+		return "El Futbolista " + this.nombre + "tiene " + this.edad + " ,y juega de " + this.posicion;
 	}
 
 	public String getNombre() {
